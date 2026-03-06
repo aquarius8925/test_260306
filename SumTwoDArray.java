@@ -2,7 +2,7 @@ package question07;
 
 public class SumTwoDArray {
 	public static void main(String[] args) {
-			int[][] arr=new int[4][4];
+			int[][] arr=new int[3][4];
 			int sum=0;
 			for (int i = 0; i < arr.length; i++) {
 				for (int j = 0; j < arr[i].length; j++) {
@@ -11,6 +11,7 @@ public class SumTwoDArray {
 					sum+=arr[i][j];
 				}
 				System.out.println();
-			}System.out.println("합은:"+sum);
+			}
+				System.out.println("합은:"+sum);
 	}
 }
